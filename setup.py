@@ -27,7 +27,7 @@ setup(
 	long_description=long_description,
 
 	# The project's main homepage.
-	url='',
+	url='https://github.com/craigsimons/json_log_parse',
 
 	# Author details
 	author='Craig Simons',
