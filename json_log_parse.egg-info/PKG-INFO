@@ -1,8 +1,8 @@
 Metadata-Version: 1.1
 Name: json-log-parse
-Version: 0.1.0
-Summary: Auto documentation tool for Pukka related projects.
-Home-page: UNKNOWN
+Version: 0.1.1
+Summary: JSON log parsing tool with empahsis on nicely formatted console display.
+Home-page: https://github.com/craigsimons/json_log_parse
 Author: Craig Simons
 Author-email: craigsimons@sfu.ca
 License: MIT
@@ -12,4 +12,4 @@ Platform: UNKNOWN
 Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: MIT License
-Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 2.6

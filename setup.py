@@ -21,9 +21,9 @@ setup(
 	# Versions should comply with PEP440.  For a discussion on single-sourcing
 	# the version across setup.py and the project code, see
 	# https://packaging.python.org/en/latest/single_source_version.html
-	version='0.1.0',
+	version='0.1.1',
 
-	description='Auto documentation tool for Pukka related projects.',
+	description='JSON log parsing tool with empahsis on nicely formatted console display.',
 	long_description=long_description,
 
 	# The project's main homepage.
@@ -52,7 +52,7 @@ setup(
 
 		# Specify the Python versions you support here. In particular, ensure
 		# that you indicate whether you support Python 2, Python 3 or both.
-		'Programming Language :: Python :: 2.7',
+		'Programming Language :: Python :: 2.6',
 	],
 
 	# What does your project relate to?

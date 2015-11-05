@@ -111,10 +111,10 @@ def getColumnConfig():
 			config = items[1].replace(")","").split(",")
 			minWidth = int(config[0].strip())
 
-			if config[1]:
+			if len(config) > 1:
 				maxWidth = int(config[1].strip())
 
-			if config[2]:
+			if len(config) > 2:
 				justify = config[2].strip()
 
 		# check thar min is less/= max
@@ -182,7 +182,7 @@ def printFromPolledFile():
 	# loop endlessly with a poller. Only exit when requested by user
 	try:
 		while True:
-			if p.poll(args.polltime):
+			if p.poll(1):
 				for line in iter(f.stdout.readline, b''):
 					# decode the JSON and parse into column objects
 					columns = parseLine(line)
